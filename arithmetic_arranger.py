@@ -10,8 +10,6 @@ def arithmetic_arranger(lst: list, TorF: bool):
             answ = 0
             lengthfirst = len(frst)
             lengthsecond = len(scnd)
-            first = ''
-            second = ''
 
             if lengthfirst > 4 or lengthsecond > 4:
                 print('Error: Numbers cannot be more than four digits.')
