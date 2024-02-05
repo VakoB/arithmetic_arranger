@@ -17,3 +17,10 @@ from arithmetic_arranger import arithmetic_arranger
 problems = ["32 + 8", "1 - 3801", "4 - 2", "1000 + 1000", "912 + 3242"]
 result = arithmetic_arranger(problems, evaluate=True)
 print(result)
+
+# result:
+
+   32         1      4      1000      912
++   8    - 3801    - 2    + 1000    +3242
+-----    ------    ----    ------    ------
+   40     -3800       2      2000     3154
